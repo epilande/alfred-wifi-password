@@ -8,12 +8,12 @@
 
 ## Installation
 
-1. Download the Alfred Workflow ([Wi-Fi Password.alfredworkflow](https://github.com/epilande/alfred-wifi-password/releases/latest/download/WiFi-Password.alfredworkflow)).
+1. Download the Alfred Workflow ([Wi-Fi.Password.alfredworkflow](https://github.com/epilande/alfred-wifi-password/releases/latest/download/Wi-Fi.Password.alfredworkflow)).
 1. Double-click to import into Alfred (requires Powerpack).
 
 ## Usage
 
-- `wifi p {network}` - Get Wi-Fi password of specified network (current network if nothing specified) from Keychain.
+`wifi p {network}` - Get Wi-Fi password of specified network (current network if nothing specified) from Keychain.
 
 ## License
 
