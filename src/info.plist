@@ -172,7 +172,13 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Github Repo: https://github.com/epilande/alfred-wifi-password
+
+Requirements:
+- jq - Lightweight and flexible command-line JSON processor. You must have `jq` installed in `/usr/local/bin`. See https://stedolan.github.io/jq/download/
+
+Command:
+`wifi p {network}` - Get Wi-Fi password of `{network}` from Keychain.</string>
 	<key>uidata</key>
 	<dict>
 		<key>16039760-F173-4AB8-9C73-DA7401D5DE23</key>
@@ -207,8 +213,8 @@
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/epilande/alfred-wifi-password</string>
 </dict>
 </plist>
