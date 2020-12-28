@@ -3,7 +3,8 @@
 </div>
 
 <p align="center">
-  <strong>Get Wi-Fi password for specified network from Keychain</strong>
+  <strong>Get Wi-Fi password for specified network from Keychain</strong></br>
+  <img src="./wifi-p.png" width="530">
 </p>
 
 ## Installation
@@ -13,7 +14,7 @@
 
 ## Usage
 
-`wifi p {network}` - Get Wi-Fi password of specified network (current network if nothing specified) from Keychain.
+`wifi p {network}` - Get Wi-Fi password of `{network}` from Keychain.
 
 ## License
 
