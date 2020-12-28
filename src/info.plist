@@ -34,7 +34,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</key>
+		<key>4A92C8E2-8AEC-4B5C-820B-47EF1AB1A6C9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -124,23 +124,51 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
 				<key>keyword</key>
 				<string>wifi p</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./wifi-list.sh</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Get Wi-Fi password for network "{query}"</string>
-				<key>text</key>
+				<string>Get Wi-Fi password from Keychain</string>
+				<key>title</key>
 				<string>Wi-Fi Password</string>
+				<key>type</key>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
+			<string>4A92C8E2-8AEC-4B5C-820B-47EF1AB1A6C9</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -161,10 +189,10 @@
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
-		<key>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</key>
+		<key>4A92C8E2-8AEC-4B5C-820B-47EF1AB1A6C9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>55</integer>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
