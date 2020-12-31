@@ -89,7 +89,7 @@
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>transient</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
